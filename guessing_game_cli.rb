@@ -3,10 +3,10 @@ puts "Type a number between 1 and 6"
 num=rand(6)+1
 input = gets.chomp
 if input== "exit"
-  return "Goodbye!"
+  puts "Goodbye!"
 elsif input==num
-return "You guessed the correct number!"
+puts "You guessed the correct number!"
 else input != num
-  return "Sorry! The computer guessed #{num}."
+  puts "Sorry! The computer guessed #{num}."
 end
 end
