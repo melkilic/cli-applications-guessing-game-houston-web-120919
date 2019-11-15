@@ -11,4 +11,4 @@ puts "You guessed the correct number!"
 end
 end
 
-ru
+run_guessing_game
