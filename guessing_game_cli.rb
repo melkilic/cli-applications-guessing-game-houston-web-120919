@@ -10,5 +10,3 @@ else input==num
 puts "You guessed the correct number!"
 end
 end
-
-
