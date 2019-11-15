@@ -6,7 +6,7 @@ if input== "exit"
   puts "Goodbye!"
 elsif input==num.to_s
 puts "You guessed the correct number!"
-else input != num
+elsif input != num
   puts "Sorry! The computer guessed #{num}."
 end
 end
